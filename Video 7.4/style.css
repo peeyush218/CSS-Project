@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    
+    padding: 0px 90px;
+    padding-top: 130px;
+    font-family: sans-serif;
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 120px;
+    
+}
+
+#bottom-left{
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#color{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 3px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+#color h5{
+    font-size: 15px;
+    margin-right: 9px;
+    font-weight: 500;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+
+#left h2{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#left p{
+    font-size: 13.8px;
+    width: 55%;
+    font-weight: 600;
+    color: #444;
+    line-height: 20px;
+}
+
+#right{
+    height: 91%;
+    width: 28%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#right-top{
+    height: 65px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 14px;
+}
+
+#right-top h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#right-top h5{
+    font-size: 10px;
+}
+
+#right img{
+    width: 100%;
+    height: 88%;
+    object-fit: cover;
+}
+
+#cart{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(44, 41, 41);
+    color: rgba(251, 227, 227, 0.973);
+    border-radius: 50%;
+    right: -18%;
+    top: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#rotated{
+    position: absolute;
+    /* When transform-origin is not used, following measures of left and botto */
+    /* left: -32%;
+    bottom: 20%; */
+    rotate: -90deg;
+    /* If transform-origin is used, then bottom and left measures will change */
+    transform-origin: 0 0 ;
+    bottom: 3%;
+    left: -13%;
+    font-size: 21px;
+    color: #2c2c2c;
+}
